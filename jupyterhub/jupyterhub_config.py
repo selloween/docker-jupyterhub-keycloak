@@ -13,7 +13,6 @@ class CustomMixin(OAuth2Mixin):
     _OAUTH_AUTHORIZE_URL = os.environ['OAUTH_AUTHORIZE_URL']
     _OAUTH_ACCESS_TOKEN_URL = os.environ['OAUTH_ACCESS_TOKEN_URL']
 
-
 class CustomLoginHandler(OAuthLoginHandler, CustomMixin):
     pass
 
