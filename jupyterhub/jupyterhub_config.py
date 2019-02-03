@@ -61,7 +61,6 @@ c.DockerSpawner.volumes = { 'jupyterhub-user-{username}': notebook_dir }
 c.Spawner.cpu_limit = 1
 c.Spawner.mem_limit = '10G'
 
-
 ## Services
 c.JupyterHub.services = [
     {
