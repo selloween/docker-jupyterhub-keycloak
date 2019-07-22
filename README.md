@@ -1,2 +1,2 @@
 # jupyterhub-keycloak-docker
-Docker JupyterHub configured for Keyclaok using Open ID Connect
+Docker JupyterHub configured for Keycloak using Open ID Connect
